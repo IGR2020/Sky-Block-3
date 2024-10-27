@@ -1,0 +1,1 @@
+title @a title {"text": "Skyblock 3", "color": "#148ec6"}
