@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Skyblock",
+            "bold": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false,
+            "italic": false
+        },
+        "description": {
+            "text": "The heart and story of skyblock",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:stick"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "gotSticks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:stick"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gotSticks"
+        ]
+    ],
+    "rewards": {
+        "experience": 50,
+        "recipes": ["skyblock:oak_planks"]
+    }
+}
