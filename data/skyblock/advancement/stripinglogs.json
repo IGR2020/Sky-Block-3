@@ -1,7 +1,7 @@
 {
     "display": {
         "title": {
-            "text": "Skyblock",
+            "text": "Striping Logs",
             "bold": false,
             "underlined": false,
             "strikethrough": false,
@@ -9,11 +9,11 @@
             "italic": false
         },
         "description": {
-            "text": "The heart and story of skyblock",
+            "text": "Are we back to normal?",
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:stick"
+            "id": "minecraft:wooden_axe"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,13 +22,13 @@
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
     "criteria": {
-        "gotSticks": {
+        "gotLogs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "stick"
+                            "stripped_oak_log"
                         ],
                         "count": {
                             "min": 1
@@ -40,13 +40,14 @@
     },
     "requirements": [
         [
-            "gotSticks"
+            "gotLogs"
         ]
     ],
     "rewards": {
         "experience": 50,
         "recipes": [
-            "skyblock:oak_planks"
+            "skyblock:gravel"
         ]
-    }
+    },
+    "parent": "skyblock:uncrafting"
 }

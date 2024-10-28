@@ -23,16 +23,9 @@
     },
     "criteria": {
         "gotPlanks": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "items": [
-                    {
-                        "items": ["oak_planks"],
-                        "count": {
-                            "min": 1
-                        }
-                    }
-                ]
+                "recipe_id": "skyblock:oak_planks"
             }
         }
     },

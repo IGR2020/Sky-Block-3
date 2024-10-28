@@ -1,7 +1,7 @@
 {
     "display": {
         "title": {
-            "text": "Skyblock",
+            "text": "Leaves Drop A Lot",
             "bold": false,
             "underlined": false,
             "strikethrough": false,
@@ -9,11 +9,11 @@
             "italic": false
         },
         "description": {
-            "text": "The heart and story of skyblock",
+            "text": "What else might drop more?",
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:stick"
+            "id": "minecraft:oak_leaves"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,13 +22,13 @@
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
     "criteria": {
-        "gotSticks": {
+        "gotString": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "stick"
+                            "string"
                         ],
                         "count": {
                             "min": 1
@@ -40,13 +40,14 @@
     },
     "requirements": [
         [
-            "gotSticks"
+            "gotString"
         ]
     ],
     "rewards": {
         "experience": 50,
         "recipes": [
-            "skyblock:oak_planks"
+            "skyblock:wooden_axe"
         ]
-    }
+    },
+    "parent": "skyblock:skyblock"
 }
