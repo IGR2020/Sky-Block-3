@@ -1,0 +1,7 @@
+{
+    "type": "blasting",
+    "ingredient": {"item": "smooth_stone"},
+    "result": {"id": "fire_charge"},
+    "cookingtime": 360,
+    "experience": 35
+}

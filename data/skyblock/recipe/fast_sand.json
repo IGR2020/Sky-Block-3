@@ -1,0 +1,7 @@
+{
+    "type": "blasting",
+    "ingredient": {"item": "gravel"},
+    "result": {"id": "sand"},
+    "cookingtime": 80,
+    "experience": 3
+}
