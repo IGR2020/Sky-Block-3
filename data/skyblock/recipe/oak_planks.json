@@ -1,0 +1,5 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{"item": "stick"}, {"item": "stick"}, {"item": "stick"}, {"item": "stick"}],
+    "result": {"id": "oak_planks", "count": 2}   
+}

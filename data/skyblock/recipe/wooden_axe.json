@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "OS ",
+        "WS ",
+        "   "
+    ],
+    "key": {"O": {"tag": "planks"}, "S": {"item": "stick"}, "W": {"item": "string"}},
+    "result": {"id": "wooden_axe"}
+}
