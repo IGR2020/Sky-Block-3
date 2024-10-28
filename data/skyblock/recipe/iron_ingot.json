@@ -1,0 +1,7 @@
+{
+    "type": "smelting",
+    "ingredient": {"item": "fire_charge"},
+    "result": {"id": "iron_ingot"},
+    "cookingtime": 5000,
+    "experience": 120
+}
