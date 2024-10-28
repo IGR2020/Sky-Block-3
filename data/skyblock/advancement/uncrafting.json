@@ -1,7 +1,7 @@
 {
     "display": {
         "title": {
-            "text": "Skyblock",
+            "text": "Uncrafting!",
             "bold": false,
             "underlined": false,
             "strikethrough": false,
@@ -9,11 +9,11 @@
             "italic": false
         },
         "description": {
-            "text": "The heart and story of skyblock",
+            "text": "Maybe try striping the oak logs ;)",
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:stick"
+            "id": "minecraft:oak_planks"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,12 +22,12 @@
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
     "criteria": {
-        "gotSticks": {
+        "gotPlanks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["stick"],
+                        "items": ["oak_planks"],
                         "count": {
                             "min": 1
                         }
@@ -38,11 +38,12 @@
     },
     "requirements": [
         [
-            "gotSticks"
+            "gotPlanks"
         ]
     ],
     "rewards": {
         "experience": 50,
-        "recipes": ["skyblock:oak_planks"]
-    }
+        "recipes": ["skyblock:wooden_axe"]
+    },
+    "parent": "skyblock:skyblock"
 }
