@@ -1,0 +1,5 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{"item": "cobblestone"}, {"item": "cobblestone"}, {"item": "cobblestone"}, {"item": "cobblestone"}, {"item": "cobblestone"}, {"item": "cobblestone"}, {"item": "cobblestone"}, {"item": "cobblestone"}, {"tag": "shovels"}],
+    "result": {"id": "gravel", "count": 12}
+}
