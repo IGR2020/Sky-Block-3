@@ -1,0 +1,7 @@
+{
+    "type": "blasting",
+    "ingredient": {"item": "iron_block"},
+    "result": {"id": "lava_bucket"},
+    "cookingtime": 1,
+    "experience": 2000
+}

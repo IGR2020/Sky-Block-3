@@ -3,5 +3,5 @@
     "ingredient": {"item": "fire_charge"},
     "result": {"id": "iron_ingot"},
     "cookingtime": 500,
-    "experience": 120
+    "experience": 75
 }
