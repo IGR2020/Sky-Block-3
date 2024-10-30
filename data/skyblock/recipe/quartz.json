@@ -1,0 +1,5 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{"item": "iron_nugget"}, {"item": "gold_nugget"}, {"item": "redstone"}, {"item": "copper_ingot"}],
+    "result": {"id": "quartz", "count": 6}
+}
