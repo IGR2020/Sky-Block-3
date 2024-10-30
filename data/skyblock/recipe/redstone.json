@@ -1,0 +1,5 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{"item": "copper_ingot"}, {"tag": "pickaxes"}, {"item": "gold_nugget"}],
+    "result": {"id": "redstone", "count": 12}
+}

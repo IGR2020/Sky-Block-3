@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "III",
+        "ICI",
+        "RDR"
+    ],
+    "key": {"I": {"item": "iron_nugget"}, "C": {"item": "crafting_table"}, "R": {"item": "redstone"}, "D": {"item": "dropper"}},
+    "result": {"id": "crafter"}
+}
