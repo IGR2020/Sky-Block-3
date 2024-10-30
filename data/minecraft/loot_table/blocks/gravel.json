@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gravel",
+                    "weight": 80
+                },
+                {
+                    "type": "item",
+                    "name": "flint",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "iron_nugget",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}
