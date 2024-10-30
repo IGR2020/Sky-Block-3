@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "bonus_rolls": 12,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gunpowder",
+                    "weight": 95
+                },
+                {
+                    "type": "item",
+                    "name": "wheat_seeds",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pumpkin_seeds",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "melon_seeds",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "beetroot_seeds",
+                    "weight": 1
+                },                {
+                    "type": "item",
+                    "name": "vine",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
