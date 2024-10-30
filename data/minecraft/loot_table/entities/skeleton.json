@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "bonus_rolls": 8,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bone",
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "bone_meal",
+                    "weight": 50
+                }
+            ]
+        }
+    ]
+}

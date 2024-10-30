@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "bonus_rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "rotten_flesh",
+                    "weight": 750
+                },
+                {
+                    "type": "item",
+                    "name": "diamond",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "bone",
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "rabbit_hide",
+                    "weight": 100
+                },
+                {
+                    "type": "item",
+                    "name": "dried_kelp",
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "iron_nugget",
+                    "weight": 24
+                },
+                {
+                    "type": "item",
+                    "name": "gold_nugget",
+                    "weight": 25
+                }
+            ]
+        }
+    ]
+}
