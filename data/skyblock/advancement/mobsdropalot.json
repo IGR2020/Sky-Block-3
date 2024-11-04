@@ -1,0 +1,53 @@
+{
+    "display": {
+        "title": {
+            "text": "Mobs drop a lot",
+            "bold": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false,
+            "italic": false
+        },
+        "description": {
+            "text": "what might be next?",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:rotten_flesh"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "gotString": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "rotten_flesh",
+                            "bone",
+                            "gunpowder",
+                            "string"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gotString"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "skyblock:everythingdropalot"
+}
